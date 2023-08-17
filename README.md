@@ -1,2 +1,2 @@
-# zlgcan
-Plugins for Qt, to support zlg CAN devices.
+# zlgcan-qt5
+Plugins for Qt5, to support zlg CAN devices.

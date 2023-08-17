@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright © 2023 idea4e. All rights reserved. -->
+<Devices>
+    <Device type="ZCAN_USBCAN1" id="3" fd="false" channels="1">
+        <Configurations>
+            <RawFilte configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ErrorFilter configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <Loopback configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ReceiveOwn configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <BitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+                <value>50000</value>
+            </BitRate>
+            <CanFd configurable="false" method="ZCAN_InitCAN" sequence="BEFORE_INIT_CAN" />
+            <DataBitRate configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+        </Configurations>
+    </Device>
+    <Device type="ZCAN_USBCAN2" id="4" fd="false" channels="2">
+        <Configurations>
+            <RawFilte configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ErrorFilter configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <Loopback configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ReceiveOwn configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <BitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+                <value>50000</value>
+            </BitRate>
+            <CanFd configurable="false" method="ZCAN_InitCAN" sequence="BEFORE_INIT_CAN" />
+            <DataBitRate configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+        </Configurations>
+    </Device>
+    <Device type="ZCAN_USBCAN_E_U" id="20" fd="false" channels="1">
+        <Configurations>
+            <RawFilte configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ErrorFilter configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <Loopback configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ReceiveOwn configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <BitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+                <value>50000</value>
+            </BitRate>
+            <CanFd configurable="false" method="ZCAN_InitCAN" sequence="BEFORE_INIT_CAN" />
+            <DataBitRate configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+        </Configurations>
+    </Device>
+    <Device type="ZCAN_USBCAN_2E_U" id="21" fd="false" channels="2">
+        <Configurations>
+            <RawFilte configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ErrorFilter configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <Loopback configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ReceiveOwn configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <BitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+                <value>50000</value>
+            </BitRate>
+            <CanFd configurable="false" method="ZCAN_InitCAN" sequence="BEFORE_INIT_CAN" />
+            <DataBitRate configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+        </Configurations>
+    </Device>
+
+    <Device type="ZCAN_USBCANFD_MINI" id="43" fd="true" channels="1">
+        <Configurations>
+            <RawFilte configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ErrorFilter configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <Loopback configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ReceiveOwn configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <BitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+                <value>50000</value>
+            </BitRate>
+            <CanFd configurable="true" method="ZCAN_InitCAN" sequence="BEFORE_INIT_CAN" />
+            <DataBitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>5000000</value>
+                <value>4000000</value>
+                <value>2000000</value>
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+            </DataBitRate>
+        </Configurations>
+    </Device>
+    <Device type="ZCAN_USBCANFD_100U" id="42" fd="true" channels="1">
+        <Configurations>
+            <RawFilte configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ErrorFilter configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <Loopback configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ReceiveOwn configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <BitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+                <value>50000</value>
+            </BitRate>
+            <CanFd configurable="true" method="ZCAN_InitCAN" sequence="BEFORE_INIT_CAN" />
+            <DataBitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>5000000</value>
+                <value>4000000</value>
+                <value>2000000</value>
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+            </DataBitRate>
+        </Configurations>
+    </Device>
+    <Device type="ZCAN_USBCANFD_200U" id="41" fd="true" channels="2">
+        <Configurations>
+            <RawFilte configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ErrorFilter configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <Loopback configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <ReceiveOwn configurable="false" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN" />
+            <BitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+                <value>50000</value>
+            </BitRate>
+            <CanFd configurable="true" method="ZCAN_InitCAN" sequence="BEFORE_INIT_CAN" />
+            <DataBitRate configurable="true" method="ZCAN_SetValue" sequence="BEFORE_INIT_CAN">
+                <value>5000000</value>
+                <value>4000000</value>
+                <value>2000000</value>
+                <value>1000000</value>
+                <value>800000</value>
+                <value>500000</value>
+                <value>250000</value>
+                <value>125000</value>
+                <value>100000</value>
+            </DataBitRate>
+        </Configurations>
+    </Device>
+</Devices>
